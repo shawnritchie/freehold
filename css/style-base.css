@@ -1,0 +1,544 @@
+.u-removePaddings {
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+
+.u-normalSpacing,
+.login-checkbox {
+  margin-bottom: 9px !important
+}
+
+.u-smallSpacing {
+  margin-bottom: 5px !important
+}
+
+.u-inputIcon,
+.login-field,
+.slider-input {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 32px 16px
+}
+
+.u-inputBlock,
+.slider-bckgrd {
+  padding: 0 8px;
+  height: 30px;
+  vertical-align: middle
+}
+
+.font-altN {
+  font-family: "Droid Sans";
+  font-style: normal
+}
+
+.font-altN52,
+.calculator-year,
+.calculator-yearStats h2,
+.calculator-previousYear,
+.calculator-nextYear {
+  font-family: "Droid Sans";
+  font-style: normal;
+  font-size: 52px
+}
+
+.font-main {
+  font-family: OpenSans;
+  font-style: normal
+}
+
+.font-mainN {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400
+}
+
+.font-mainL {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 100
+}
+
+.font-mainB {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600
+}
+
+.font-mainN16,
+.calculator-guage h2 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px
+}
+
+.font-mainL16,
+.header--public,
+.login-header,
+.calculator-header {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 18px
+}
+
+.font-mainB16,
+.login-name,
+.login-submit {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px
+}
+
+.font-mainN12,
+.login-field,
+.slider-input,
+.calculator-gagueValue {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px
+}
+
+.font-mainL12,
+.calculator-tbl,
+.calculator-tbl tr:nth-child(odd),
+.calculator-tbl tr:nth-child(even) {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 12px
+}
+
+.font-mainL9,
+.login-forgot,
+.login-checkbox,
+.footer-link,
+.calculator-guage h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 9px;
+  line-height: 9px
+}
+
+.font-mainB16,
+.login-name,
+.login-submit {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px
+}
+
+.font-mainL24,
+.calculator-yearStats h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px
+}
+
+.header--public {
+  color: #e2ecff;
+  margin: 3px 0 12px 0
+}
+
+.logo {
+  background: url("../imgs/freehold-logo@2x.png");
+  height: 107px;
+  width: 149px;
+  background-size: 149px 107px;
+  background-repeat: no-repeat;
+}
+
+.logo--default {
+  background: url("../imgs/freehold-logo@2x.png");
+  height: 107px;
+  width: 149px;
+  background-size: 149px 107px;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+}
+
+.container--public {
+  background: #e2ecff;
+  padding: 16px 0 16px 0;
+  width: 251px
+}
+
+.avatar {
+  height: 103px;
+  width: 103px
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+  padding: 0 8px;
+  height: 30px;
+  vertical-align: middle
+}
+
+input[type="submit"],
+input[type="button"] {
+  width: 100%;
+  height: 36px;
+  border-radius: 2px;
+  vertical-align: middle
+}
+
+input[type="checkbox"] {
+  margin-right: 3px
+}
+
+.login-avatar {
+  height: 103px;
+  width: 103px
+}
+
+.login-header {
+  color: #e2ecff;
+  margin: 3px 0 12px 0
+}
+
+.login-container {
+  background: #e2ecff;
+  padding: 16px 0 16px 0;
+  width: 251px
+}
+
+.login-name {
+  color: #a4b7d7;
+  margin: 3px 0 16px 0
+}
+
+.login-form {
+  width: 210px
+}
+
+.login-field {
+  display: block;
+  width: 100%;
+  color: #b3b3b3
+}
+
+.login-forgot {
+  float: right;
+  color: #d88c90
+}
+
+.login-checkbox {
+  float: left;
+  color: #b3b3b3
+}
+
+.login-submit {
+  background: #d88c90;
+  color: #ffffff
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden;
+  height: 35px;
+  background-color: #ffffff
+}
+
+.footer ul {
+  float: left;
+  max-width: 80%;
+  padding: 0 0 0 35px
+}
+
+.footer li {
+  display: inline;
+  padding: 0;
+  padding-right: 18px
+}
+
+.footer-link {
+  color: #b3b3b3;
+  line-height: 36px;
+  text-decoration: none
+}
+
+.footer-link:hover {
+  text-decoration: underline
+}
+
+#main-region {
+  margin-bottom: 35px
+}
+
+.a-slider {
+  display: block;
+  overflow-y: hidden;
+  max-height: 30px !important;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1)
+}
+
+.a-slider.a-closed {
+  max-height: 0 !important
+}
+
+.slider-input {
+  display: block;
+  width: 100%;
+  color: #b3b3b3;
+  z-index: 100
+}
+
+.slider-bckgrd {
+  padding: 0;
+  width: 100%;
+  background-color: #a4b7d7;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  z-index: 200
+}
+
+.slider-backgrounds,
+.slider-selected,
+.slider-default {
+  width: 0px;
+  height: 30px;
+  background-repeat: repeat;
+  background-size: 20px 30px
+}
+
+.slider-selected {
+  background-position: left center
+}
+
+.slider-default {
+  float: right;
+  background-position: right center
+}
+
+.slider-pointer {
+  width: 6px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 6px 30px;
+  background-position: left center
+}
+
+.slider-pointer:hover {
+  cursor: ew-resize
+}
+
+.calculator-type {
+  max-width: 251px;
+  width: 100%;
+  margin: 3px 0 12px 0
+}
+
+.calculator-toggleCalc {
+  color: #a4b7d7;
+  cursor: pointer
+}
+
+.calculator-header {
+  color: #e2ecff;
+  margin: 0
+}
+
+.calculator-guages {
+  hieght: 108px;
+  margin-top: 20px
+}
+
+.calculator-guage {
+  margin: 0 10px 0 10px;
+  width: 96px
+}
+
+.calculator-guageContainer {
+  height: 96px
+}
+
+.calculator-guage h3 {
+  color: #b3b3b3
+}
+
+.calculator-guage h2 {
+  color: #e2ecff
+}
+
+.calculator-gagueValue {
+  color: #d88c90;
+  margin-top: 9px
+}
+
+.calculator-yearContainer {
+  max-width: 363px;
+  width: 100%;
+  margin-top: 20px
+}
+
+.calculator-year,
+.calculator-previousYear,
+.calculator-nextYear {
+  color: #a4b7d7;
+  width: 56px;
+  cursor: pointer
+}
+
+.calculator-previousYear {
+  text-align: left
+}
+
+.calculator-nextYear {
+  text-align: right
+}
+
+.calculator-commStats,
+.calculator-yearStats h2,
+.calculator-yearStats h3 {
+  text-align: center;
+  margin: 0px
+}
+
+.calculator-yearStats h2 {
+  color: #a4b7d7
+}
+
+.calculator-yearStats h3 {
+  color: #e2ecff
+}
+
+.calculator-graphContainer {
+  height: 400px;
+  min-width: 251px;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 40px
+}
+
+.calculator-graphView {
+  display: table-cell;
+  position: absolute;
+  min-width: 251px;
+  max-width: 600px;
+  width: 100%
+}
+
+.calculator-tblContainer {
+  max-width: 600px;
+  width: 100%;
+  padding-top: 20px
+}
+
+.calculator-tbl {
+  max-width: 600px;
+  width: 100%;
+  margin: 1em 0;
+  min-width: 251px;
+  overflow: hidden;
+  border-collapse: collapse
+}
+
+.calculator-tbl th {
+  display: none
+}
+
+.calculator-tbl td {
+  display: block
+}
+
+.calculator-tbl td:first-child {
+  padding-top: .5em
+}
+
+.calculator-tbl td:last-child {
+  padding-bottom: .5em
+}
+
+.calculator-tbl td:before {
+  content: attr(data-th) ": ";
+  width: 6.5em;
+  display: inline-block
+}
+
+@media (min-width: 476px) {
+  .calculator-tbl td:before {
+  display: none
+}
+}
+
+.calculator-tbl th,
+.calculator-tbl td {
+  text-align: left
+}
+
+@media (min-width: 476px) {
+  .calculator-tbl th,
+.calculator-tbl td {
+  display: table-cell;
+  padding: .25em .5em
+}
+
+  .calculator-tbl th:first-child,
+.calculator-tbl td:first-child {
+  padding-left: 0
+}
+
+  .calculator-tbl th:last-child,
+.calculator-tbl td:last-child {
+  padding-right: 0
+}
+}
+
+.calculator-tbl tr:nth-child(odd) {
+  background-color: #ffffff;
+  color: #b3b3b3
+}
+
+.calculator-tbl tr:nth-child(even) {
+  background-color: #e2ecff;
+  color: #a4b7d7
+}
+
+.calculator-tbl th,
+.calculator-tbl td {
+  font-weight: 100;
+  width: 100%;
+  margin: .5em 1em;
+  text-align: left;
+  padding-left: 30%
+}
+
+@media (min-width: 476px) {
+  .calculator-tbl th,
+.calculator-tbl td {
+  padding: 1em !important;
+  width: 20%;
+  margin: .5em 1em;
+  text-align: center
+}
+}
+
+.calculator-tbl th,
+.calculator-tbl td:before {
+  color: #d88c90
+}

@@ -1,0 +1,1 @@
+<input class="slider-input <%- fhIcon %> js-slider" type="text" placeHolder="<%- fhDisplay %>">

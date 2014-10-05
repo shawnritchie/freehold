@@ -1,0 +1,13 @@
+.a-slider {
+	display: block;
+	overflow-y: hidden;
+	max-height: @element-blockHeight !important;
+
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.a-slider.a-closed {
+	max-height: 0 !important;
+}

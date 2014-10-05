@@ -1,0 +1,14 @@
+{
+  "name": "requirejs-underscore-tpl",
+  "homepage": "https://github.com/dciccale/requirejs-underscore-tpl",
+  "_release": "6785890598",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "67858905989d7f480bb0d913d00de9f85ead72de"
+  },
+  "_source": "git://github.com/dciccale/requirejs-underscore-tpl.git",
+  "_target": "*",
+  "_originalSource": "requirejs-underscore-tpl",
+  "_direct": true
+}

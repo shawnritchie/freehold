@@ -1,0 +1,30 @@
+{
+  "name": "freehold.com.mt",
+  "version": "0.0.0",
+  "authors": [
+    "Shawn Ritchie <xritchie@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette": "~2.1.0",
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.11.1",
+    "requirejs-underscore-tpl": "*",
+    "requirejs-text": "~2.0.12",
+    "requirejs": "~2.1.15",
+    "Backbone.ModelBinder": "~1.0.5",
+    "highcharts-release": "~4.0.4",
+    "almond": "~0.3.0"
+  },
+  "resolutions": {
+    "jquery": "1.8.0 - 2.1.0"
+  }
+}

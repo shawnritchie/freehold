@@ -1,0 +1,57 @@
+@import "colors";
+@import "components";
+@import "z-index";
+@import "text";
+@import "animate";
+
+.slider-input {
+	display: block;
+	width:100%;
+	color: @color-grey;
+	&:extend(.font-mainN12);
+	&:extend(.u-inputIcon);
+	z-index:@zIndex-1;
+}
+
+.slider-bckgrd {
+	&:extend(.u-inputBlock);
+	padding: 0;
+	width:100%;
+	background-color: @color-darkBlue;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	z-index:@zIndex-2;
+}
+
+.slider-backgrounds {
+	width: 0px;
+	height: 30px;
+	background-repeat: repeat;
+	background-size: 20px 30px;
+}
+
+.slider-selected {
+	&:extend(.slider-backgrounds);
+	background-position: left center;
+	background-image: url("../imgs/slider-red.png");
+}
+
+.slider-default {
+	&:extend(.slider-backgrounds);
+	float:right;
+	background-position: right center;
+	background-image: url("../imgs/slider-blue.png");
+}
+
+.slider-pointer{
+	width: 6px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: 6px 30px;
+	background-position: left center;
+	background-image: url("../imgs/slider-arrow.png");
+}
+
+.slider-pointer:hover{
+	cursor: ew-resize;
+}

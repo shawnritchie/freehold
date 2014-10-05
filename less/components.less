@@ -1,0 +1,54 @@
+@import "colors";
+@import "utility";
+@import "z-index";
+@import "text";
+
+
+.logo {
+	background: url("../imgs/freehold-logo@2x.png");
+	height: 107px;
+	width: 149px;
+    background-size: 149px 107px;
+    background-repeat: no-repeat;	
+}
+
+.logo--default {
+	.logo;
+	margin-top:24px;
+}
+
+.container--public {
+	background: @color-lightBlue;
+	padding: 16px 0 16px 0;
+	width: 251px;
+}
+
+.avatar {
+	height: 103px;
+	width: 103px;
+}
+
+input {
+	.u-removePaddings;
+	box-sizing: border-box;
+}
+
+
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+	.u-inputBlock;
+}
+
+input[type="submit"],
+input[type="button"] {
+	width: 100%;
+	height: 36px;
+	border-radius: 2px;
+	vertical-align: middle;
+}
+
+input[type="checkbox"] {
+	margin-right: 3px;
+}
+

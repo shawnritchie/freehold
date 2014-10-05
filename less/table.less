@@ -1,0 +1,48 @@
+.u-table(@breakpointAlpha) {
+  margin: 1em 0;
+  min-width: 251px; // adjust to your needs
+  
+  th {
+    display: none; 
+  }
+  
+  td {
+    display: block; 
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    &:before {
+      content: attr(data-th)": ";
+
+      width: 6.5em; 
+      display: inline-block;
+
+      @media (min-width: @breakpointAlpha) {
+        display: none;
+      }
+    }
+  }
+  
+  th, td {
+    text-align: left;
+    
+    @media (min-width: @breakpointAlpha) {
+      display: table-cell;
+      padding: .25em .5em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+}

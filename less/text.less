@@ -1,0 +1,107 @@
+@fontSize-micro: 6px;
+@fontSize-smallest: 7px;
+@fontSize-smaller: 8px;
+@fontSize-small: 9px;
+@fontSize-base: 12px;
+@fontSize-large: 16px;
+@fontSize-larger: 24px;
+@fontSize-largest: 36px;
+@fontSize-jumbo: 52px;
+
+@fontWeight-light: 100;
+@fontWeight-base: 400;
+@fontWeight-bold: 600;
+
+@lineHeight-tightest: 6px;
+@lineHeight-tighter: 8px;
+@lineHeight-tight: 9px;
+@lineHeight-baseSans: 12px;
+@lineHeight-base: 16px;
+@lineHeight-loose: 18px;
+@lineHeight-looser: 24px;
+@lineHeight-loosest: 36px;
+
+@fontFamily-main: OpenSans;
+@fontFamilt-alt: "Droid Sans";
+
+.font-altN {
+	font-family: @fontFamilt-alt;
+	font-style: normal;
+}
+
+.font-altN52 {
+	.font-altN;
+	font-size: @fontSize-jumbo;
+}
+
+
+.font-main {
+	font-family: @fontFamily-main;
+	font-style: normal;
+} 
+
+.font-mainN {
+	.font-main;
+	font-weight: @fontWeight-base;
+}
+
+.font-mainL {
+	.font-main;
+	font-weight: @fontWeight-light;
+}
+
+.font-mainB {
+	.font-main;
+	font-weight: 600;
+}
+
+.font-mainN16 {
+	.font-mainN;
+	font-size: @fontSize-large;
+	line-height: @lineHeight-loose;
+}
+
+.font-mainL16 {
+	.font-mainL;
+	font-size: @fontSize-large;
+	line-height: @lineHeight-loose;
+}
+
+.font-mainB16 {
+	.font-mainB;
+	font-size: @fontSize-large;
+	line-height: @lineHeight-loose;
+}
+
+.font-mainN12 {
+	.font-mainN;
+	font-size: @fontSize-base;
+}
+
+.font-mainL12 {
+	.font-mainL;
+	font-size: @fontSize-base;
+	line-height: @lineHeight-baseSans;
+}
+
+.font-mainL9 {
+	.font-mainL;
+	font-size: @fontSize-small;
+	line-height: @lineHeight-tight;
+}
+
+.font-mainB16 {
+	.font-mainB;
+	font-size: @fontSize-large;
+}
+
+.font-mainL24 {
+	.font-mainL;
+	font-size: @fontSize-larger;
+}
+
+.header--public {
+	&:extend(.font-mainL16);
+	color: @color-lightBlue;
+	margin: 3px 0 12px 0;
+}

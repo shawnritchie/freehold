@@ -1,0 +1,59 @@
+@import "colors";
+@import "components";
+@import "z-index";
+@import "text";
+
+.login-avatar {
+	.avatar;
+}
+
+.login-header {
+	&:extend(.font-mainL16);
+	color: @color-lightBlue;
+	margin: 3px 0 12px 0;
+}
+
+.login-container {
+	background: @color-lightBlue;
+	padding: 16px 0 16px 0;
+	width: 251px;
+}
+
+.login-name {
+	&:extend(.font-mainB16);
+	color: @color-darkBlue;
+	margin: 3px 0 16px 0;
+}
+
+.login-form {
+	width:210px;
+}
+
+.login-field {
+	display: block;
+	width:100%;
+	color: @color-grey;
+	&:extend(.font-mainN12);
+	&:extend(.u-inputIcon);
+}
+
+.login-forgot {
+	float: right;
+	color: @color-red;
+	&:extend(.font-mainL9);
+}
+
+.login-checkbox {
+	float: left;
+	color: @color-grey;
+	&:extend(.font-mainL9);
+	&:extend(.u-normalSpacing);
+}
+
+
+.login-submit {
+	background: @color-red;
+	color: @color-white;
+	&:extend(.font-mainB16);
+}
+

@@ -1,0 +1,155 @@
+@import "colors";
+@import "components";
+@import "z-index";
+@import "text";
+
+.calculator-type {
+	max-width: 251px;
+	width:100%;
+	margin: 3px 0 12px 0;
+}
+
+.calculator-toggleCalc {
+	color: @color-darkBlue;
+	cursor: pointer;
+}
+
+.calculator-header {
+	&:extend(.font-mainL16);
+	color: @color-lightBlue;
+	margin: 0;
+}
+
+.calculator-guages {
+	hieght: 108px;
+	margin-top: 20px;
+}
+
+.calculator-guage {
+	margin: 0 10px 0 10px;
+	width: 96px;
+}
+
+.calculator-guageContainer {
+	height: 96px;
+}
+
+.calculator-guage h3 {
+	&:extend(.font-mainL9);
+	color: @color-grey;
+}
+
+.calculator-guage h2 {
+	&:extend(.font-mainN16);
+	color: @color-lightBlue;
+}
+
+.calculator-gagueValue {
+	&:extend(.font-mainN12);
+	color: @color-red;
+	margin-top:9px;
+}
+
+.calculator-yearContainer {
+	max-width:363px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.calculator-year {
+	&:extend(.font-altN52);
+	color: @color-darkBlue;
+	width:56px;
+	cursor:pointer;
+}
+
+.calculator-previousYear {
+	&:extend(.calculator-year);
+	text-align: left;
+}
+
+.calculator-nextYear {
+	&:extend(.calculator-year);
+	text-align: right;
+}
+
+
+.calculator-commStats {
+	text-align: center;
+	margin: 0px;
+}
+
+.calculator-yearStats h2 {
+	&:extend(.font-altN52);
+	&:extend(.calculator-commStats);
+	color: @color-darkBlue;
+	
+}
+
+.calculator-yearStats h3 {
+	&:extend(.calculator-commStats);
+	&:extend(.font-mainL24);
+	color: @color-lightBlue;
+}
+
+.calculator-graphContainer {
+	height: 400px;
+	min-width: 251px;
+	max-width: 600px;
+	width:100%;
+	margin-top: 40px;
+}
+
+.calculator-graphView {
+	display: table-cell;
+	position:absolute;
+	min-width: 251px;
+	max-width: 600px;
+	width:100%;
+}
+
+.calculator-tblContainer {
+	max-width: 600px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+@breakpointAlpha: 476px;
+.calculator-tbl {
+	max-width: 600px;
+	width: 100%;
+	.u-table(@breakpointAlpha);
+	overflow: hidden;
+	&:extend(.font-mainL12);
+	border-collapse:collapse;
+
+	tr:nth-child(odd) {
+		background-color: @color-white;
+		color: @color-grey;
+		&:extend(.font-mainL12);
+	}
+
+	tr:nth-child(even) {
+		background-color: @color-lightBlue;
+		color: @color-darkBlue;
+		&:extend(.font-mainL12);
+	}
+
+	th, td {
+		font-weight: @fontWeight-light;
+		width:100%;
+		margin: .5em 1em;
+		text-align: left;
+		padding-left: 30%;
+		@media (min-width: @breakpointAlpha) { 
+	  		padding: 1em !important; 
+	  		width:20%;
+			margin: .5em 1em;
+			text-align: center;
+		}
+	}
+
+	th, td:before {
+	color: @color-red;
+	}
+}

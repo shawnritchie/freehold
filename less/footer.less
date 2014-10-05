@@ -1,0 +1,42 @@
+@import "text";
+@import "colors";
+
+@footerHeight: 35px;
+
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border-top: 1px solid @color-lightGrey;
+	overflow: hidden;
+	height: @footerHeight; /* '.push' must be the same height as 'footer' */
+	background-color: @color-white;
+}
+
+.footer ul {
+	float: left;
+	max-width:80%;
+	padding: 0 0 0 35px;
+}
+
+.footer li {
+	display: inline;
+	padding: 0;
+	padding-right: 18px;
+}
+
+.footer-link {
+	&:extend(.font-mainL9);
+	color: @color-grey;
+	line-height: @lineHeight-loosest;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+}
+
+#main-region {
+	margin-bottom: 35px;
+}

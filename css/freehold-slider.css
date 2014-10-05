@@ -1,0 +1,191 @@
+.u-removePaddings {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.u-normalSpacing {
+  margin-bottom: 9px !important;
+}
+.u-smallSpacing {
+  margin-bottom: 5px !important;
+}
+.u-inputIcon,
+.calc-slider-input {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 32px 16px;
+}
+.u-profile {
+  background-image: url("../imgs/profile.png");
+}
+.u-lock {
+  background-image: url("../imgs/password.png");
+}
+.u-email {
+  background-image: url("../imgs/email.png");
+}
+.u-home {
+  background-image: url("../imgs/home.png");
+}
+.u-clock {
+  background-image: url("../imgs/clock.png");
+}
+.u-euro {
+  background-image: url("../imgs/euro.png");
+}
+.u-graph {
+  background-image: url("../imgs/graph.png");
+}
+.u-percentage {
+  background-image: url("../imgs/percentage.png");
+}
+.u-inputBlock,
+.calc-slider-bckgrd {
+  padding: 0 8px;
+  height: 30px;
+  vertical-align: middle;
+}
+.font-main {
+  font-family: OpenSans;
+  font-style: normal;
+}
+.font-mainN {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-mainL {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 300;
+}
+.font-mainB {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+}
+.font-mainL16,
+.header--public {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+.font-mainB16 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+}
+.font-mainN12,
+.calc-slider-input {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.font-mainL9 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 9px;
+}
+.font-mainB16 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.header--public {
+  color: #e2ecff;
+  margin: 3px 0 12px 0;
+}
+.logo {
+  background: url("../imgs/freehold-logo@2x.png");
+  height: 107px;
+  width: 149px;
+  background-size: 149px 107px;
+  background-repeat: no-repeat;
+}
+.logo--default {
+  background: url("../imgs/freehold-logo@2x.png");
+  height: 107px;
+  width: 149px;
+  background-size: 149px 107px;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+}
+.container--public {
+  background: #e2ecff;
+  padding: 16px 0 16px 0;
+  width: 251px;
+}
+.avatar {
+  height: 103px;
+  width: 103px;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+input[type="password"],
+input[type="text"] {
+  padding: 0 8px;
+  height: 30px;
+  vertical-align: middle;
+}
+input[type="submit"],
+input[type="button"] {
+  width: 100%;
+  height: 36px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+input[type="checkbox"] {
+  margin-right: 3px;
+}
+.calc-slider-input {
+  display: block;
+  width: 100%;
+  color: #b3b3b3;
+}
+.calc-slider-bckgrd {
+  padding: 0;
+  width: 100%;
+  background-color: #a4b7d7;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.calc-slider-backgrounds,
+.calc-slider-selected,
+.calc-slider-default {
+  width: 0px;
+  height: 30px;
+  background-repeat: repeat;
+  background-size: 20px 30px;
+}
+.calc-slider-selected {
+  background-position: left center;
+  background-image: url("../imgs/slider-red.png");
+}
+.calc-slider-default {
+  float: right;
+  background-position: right center;
+  background-image: url("../imgs/slider-blue.png");
+}
+.clac-slider-pointer {
+  width: 6px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 6px 30px;
+  background-position: left center;
+  background-image: url("../imgs/slider-arrow.png");
+}
+.clac-slider-pointer:hover {
+  cursor: ew-resize;
+}
