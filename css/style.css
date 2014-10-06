@@ -1,52 +1,3 @@
-.u-removePaddings {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-.u-normalSpacing,
-.login-checkbox {
-  margin-bottom: 9px !important;
-}
-.u-smallSpacing {
-  margin-bottom: 5px !important;
-}
-.u-inputIcon,
-.login-field,
-.slider-input {
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 32px 16px;
-}
-.u-profile {
-  background-image: url("../imgs/profile.png");
-}
-.u-lock {
-  background-image: url("../imgs/password.png");
-}
-.u-email {
-  background-image: url("../imgs/email.png");
-}
-.u-home {
-  background-image: url("../imgs/home.png");
-}
-.u-clock {
-  background-image: url("../imgs/clock.png");
-}
-.u-euro {
-  background-image: url("../imgs/euro.png");
-}
-.u-graph {
-  background-image: url("../imgs/graph.png");
-}
-.u-percentage {
-  background-image: url("../imgs/percentage.png");
-}
-.u-inputBlock,
-.slider-bckgrd {
-  padding: 0 8px;
-  height: 30px;
-  vertical-align: middle;
-}
 .font-altN {
   font-family: "Droid Sans";
   font-style: normal;
@@ -61,27 +12,27 @@
   font-size: 52px;
 }
 .font-main {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
 }
 .font-mainN {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
 }
 .font-mainL {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
 }
 .font-mainB {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
 }
 .font-mainN16,
 .calculator-guage h2 {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -91,7 +42,7 @@
 .header--public,
 .login-header,
 .calculator-header {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -100,7 +51,7 @@
 .font-mainB16,
 .login-name,
 .login-submit {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -110,7 +61,7 @@
 .login-field,
 .slider-input,
 .calculator-gagueValue {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -119,7 +70,7 @@
 .calculator-tbl,
 .calculator-tbl tr:nth-child(odd),
 .calculator-tbl tr:nth-child(even) {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
   font-size: 12px;
@@ -130,7 +81,7 @@
 .login-checkbox,
 .footer-link,
 .calculator-guage h3 {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
   font-size: 9px;
@@ -139,14 +90,14 @@
 .font-mainB16,
 .login-name,
 .login-submit {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
 }
 .font-mainL24,
 .calculator-yearStats h3 {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
   font-size: 24px;
@@ -238,6 +189,55 @@ input[type="checkbox"] {
 .login-submit {
   background: #d88c90;
   color: #ffffff;
+}
+.u-removePaddings {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.u-normalSpacing,
+.login-checkbox {
+  margin-bottom: 9px !important;
+}
+.u-smallSpacing {
+  margin-bottom: 5px !important;
+}
+.u-inputIcon,
+.login-field,
+.slider-input {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 32px 16px;
+}
+.u-profile {
+  background-image: url("../imgs/profile.png");
+}
+.u-lock {
+  background-image: url("../imgs/password.png");
+}
+.u-email {
+  background-image: url("../imgs/email.png");
+}
+.u-home {
+  background-image: url("../imgs/home.png");
+}
+.u-clock {
+  background-image: url("../imgs/clock.png");
+}
+.u-euro {
+  background-image: url("../imgs/euro.png");
+}
+.u-graph {
+  background-image: url("../imgs/graph.png");
+}
+.u-percentage {
+  background-image: url("../imgs/percentage.png");
+}
+.u-inputBlock,
+.slider-bckgrd {
+  padding: 0 8px;
+  height: 30px;
+  vertical-align: middle;
 }
 .footer {
   position: fixed;

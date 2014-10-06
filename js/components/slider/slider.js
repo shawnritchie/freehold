@@ -47,6 +47,10 @@ define(
       			this.options.offset = this.ui.backgroundScale.position().left;
 
       			this.ui.foregroundScale.width((this.options.max));
+			},
+
+			getOffset: function() {
+				return this.ui.backgroundScale.position().left;
 			}
 		});
 	});

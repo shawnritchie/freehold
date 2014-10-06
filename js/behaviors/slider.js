@@ -73,7 +73,8 @@ define(["marionette"], function(Marionette){
     },
 
     events: {
-      'mousedown @ui.slider': 'onSliderDrag'
+      'mousedown @ui.slider': 'onSliderDrag',
+      'touchstart @ui.slider': 'onSliderTouch'
     },
 
     initialize: function() {
@@ -86,15 +87,33 @@ define(["marionette"], function(Marionette){
       this.updateValue();
     },
 
-    onSliderDrag: function() {
+    onSliderDrag: function(e) {
+      e.preventDefault();
       var handlers = {
           mousemove : function(e){
               $(this.ui.foregroundScale).width(
-                  utility.round((this.view.options.max - (e.pageX - this.view.options.offset)), this.view.options.min, this.view.options.max)+ 'px'
+                  utility.round((this.view.options.max - (e.pageX - this.view.getOffset())), this.view.options.min, this.view.options.max)+ 'px'
               );
               this.view.trigger("slider:resize", this);
           }.bind(this),
           mouseup : function(){
+              this.view.trigger("slider:resize:complete", this);
+              this.$el.off(handlers);   
+          }.bind(this)
+      };
+
+      this.$el.on(handlers);
+    },
+
+    onSliderTouch: function() {
+      var handlers = {
+          touchmove : function(e){
+              $(this.ui.foregroundScale).width(
+                  utility.round((this.view.options.max - (e.pageX - this.view.getOffset())), this.view.options.min, this.view.options.max)+ 'px'
+              );
+              this.view.trigger("slider:resize", this);
+          }.bind(this),
+          touchend : function(){
               this.view.trigger("slider:resize:complete", this);
               this.$el.off(handlers);   
           }.bind(this)

@@ -14,7 +14,7 @@ define(["app"], function(FreeholdApp){
 	      console.log("Starting Calculator");
 	      console.log("Built using requirejs, backbone.marionette, less");
 	      console.log("linkedin: https://www.linkedin.com/in/ritchieshawn");
-	      console.log("git: https://github.com/xritchie");
+	      console.log("git: https://github.com/xritchie/freehold");
 	    };
 
 	    Calculator.onStop = function(){
